@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+.image {
+	height: 50%;
+	width: 100%;
+	margin: auto;
+    position: relative;
+}
+.one {
+    background-color:#202020;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.two {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position:absolute;
+}
+.three {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.four {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.five {
+    animation-name: fadeIn;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+.six {
+    animation-name: fadeIn;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+    position: absolute;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
